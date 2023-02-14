@@ -1,0 +1,16 @@
+@charset "utf-8";
+@font-face {
+  font-family: "BlexMono NFM";
+  src: url("https://fonts.googleapis.com/css2?family=Blex+Mono&display=swap");
+}
+body {
+  background-color: #050d1b;
+}
+#header {
+  color: #287BDE;
+  width: 100%;
+  padding: 20px;
+  position: fixed;
+  text-align: left;
+  font-size: 24px;
+}
