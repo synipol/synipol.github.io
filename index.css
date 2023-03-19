@@ -1,7 +1,7 @@
 @charset "utf-8";
 @font-face {
   font-family: "IBM Plex Mono";
-  src: url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+  src: url('fonts/IBMPlexMono-Regular.ttf');
 }
 
 body {
