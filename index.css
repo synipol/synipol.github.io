@@ -1,11 +1,14 @@
 @charset "utf-8";
 @font-face {
-  font-family: "IBM Plex Mono", "Lucida Sans Unicode", monospace;
+  font-family: "IBM Plex Mono";
   src: url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 }
+
 body {
   background-color: #050d1b;
+  font-family: "IBM Plex Mono", "Lucida Sans Unicode";
 }
+
 #header {
   color: #287BDE;
   width: 100%;
