@@ -1,7 +1,7 @@
 @charset "utf-8";
 @font-face {
-  font-family: "BlexMono NFM";
-  src: url("https://fonts.googleapis.com/css2?family=Blex+Mono&display=swap");
+  font-family: "IBM Plex Mono", "Lucida Sans Unicode", monospace;
+  src: url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 }
 body {
   background-color: #050d1b;
