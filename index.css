@@ -4,16 +4,89 @@
   src: url('fonts/IBMPlexMono-Regular.ttf');
 }
 
-body {
-  background-color: #050d1b;
-  font-family: "IBM Plex Mono", "Lucida Sans Unicode";
+<!--
+/*
+ * Filename:    index.css
+ * Title:       syni.io stylesheet
+ * Author:      Tom
+ * Date:        2023-03
+ */
+-->
+
+html {
+  font-family: "IBM Plex Mono", "Lucida Sans Unicode", sans-serif;
+  font-size: 14px;
+  color: powderblue;
 }
 
-#header {
-  color: #287BDE;
-  width: 100%;
-  padding: 20px;
-  position: fixed;
+body {
+  background-color: hsl(218, 69%, 6%);
+}
+
+header {
+  padding-bottom: 1.0rem;
+}
+
+header > p {
+  text-align: right;
+  padding: 0;
+  margin: 0;
+}
+
+header > h1 {
+  font-size: 2rem;
+  color: hsl(213, 73%, 51%);
+  margin: 0;
+  padding: 1.0rem;
+  text-align: center;
+}
+
+nav {
+  background-color: hsl(218, 69%, 8%);
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0.2rem;
+  border-top: 0.2rem;
+  border-style: ridge;
+  border-color: hsla(213, 73%, 51%, 40%);
+  text-align: center;
+}
+
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-flex;
+}
+
+nav a {
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: deepskyblue;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+nav a:hover {
+  background-color: hsla(213, 73%, 51%, 25%);
+}
+
+article {
+  text-align: center;
+  font-size: 0.5rem;
+}
+
+footer {
+  color: powderblue;
   text-align: left;
-  font-size: 24px;
+}
+
+footer > p {
+  margin: 0;
+  padding: 0;
+  font-size: 0.5rem;
 }
