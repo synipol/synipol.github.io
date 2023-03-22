@@ -80,6 +80,11 @@ article {
   font-size: 0.5rem;
 }
 
+article > img {
+  width: 80%;
+  height: auto;
+}
+
 footer {
   color: powderblue;
   text-align: left;
